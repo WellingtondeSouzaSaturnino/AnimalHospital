@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+  
+    <title>Cliente</title>
+</head>
+<body>
+    <div>
+        <form>
+            <ul>Buscando do Tutor</ul>
+            <input type="text" id="name" name="name"overwrite="true" placeholder="Tutor">
+        </form>
+    </div>
+    <div>
+        <div class="botao">
+              <!--Função para buscar o tutor pelo nome  -->
+            <button type="button" class="btn btn" Onclick="buscar()"><h2>Buscar</h2></button>
+        </div>
+    </div>
+    <div class="inicio">
+        <ul> <a href="../Inicio/index.html">Home</a></ul>            
+
+    </div>
+    <div class="bt">
+          <!-- Se o tutor estiver cadastrado ir para consulta se não voltar para cadastro -->
+           <button type="button" class="btn btn" Onclick="verificar()"><h2>Consulta</h2></button>
+    </div>
+    <script>
+        function buscar(){
+            var input = document.querySelector("#name");
+            var texto = input.value;
+            if(texto != null){
+                // buscar o nome no banco de dados
+                console.log(texto);
+            }          
+                        
+       }
+       function verificar() {
+            var input = document.querySelector("#name");
+            var texto = input.value;
+                if(texto == "well"){
+                    // Ver um jeito de comparar com o banco de dados e se existir ir para consulta se não ir para cadastro.
+                    // <a href="../consultas/indexConsulta.html"></a>
+                    console.log("Deu Certo!!!");
+                }
+            }
+      
+    
+    </script>
+</body>
+
+</html>
