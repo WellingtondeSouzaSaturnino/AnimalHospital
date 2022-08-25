@@ -17,13 +17,14 @@ form{
     text-align: center;
     font-size: 25px;
     margin-top: 40px;
-    color:darkblue;
+    color:whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 h1{
     text-align: center;
     text-decoration: underline;
     margin-top:55px;
-    color: red;
+    color: black;
 }
 div{
     text-align: center;
@@ -51,6 +52,6 @@ input[type="text"]{
     border-radius: 20px;
 }
 a{
-    color: red;
+    color: aqua;
    
 }
