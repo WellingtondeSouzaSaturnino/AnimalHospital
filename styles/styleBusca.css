@@ -46,12 +46,14 @@ div.botao{
     margin-top:10px;
     
     
+    
 }
 button{
     border:none;
     border-radius:20px;
     background-color: blue;
     width:150px;
+    
 }
 div.bt{
     border:none;
@@ -60,9 +62,11 @@ div.bt{
     margin-top: 10px;
     
     
+    
 }
 h2{
     font-size:25px;
     color:black;
+    
     
 }
