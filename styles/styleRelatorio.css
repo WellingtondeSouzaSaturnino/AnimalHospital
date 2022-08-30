@@ -72,21 +72,23 @@ div.container{
     }
     form{
         flex-direction: column;
+
     }
     h1{
         flex-direction: column;
-        margin-bottom:100px;
+        margin-bottom:50px;
     }
     div{
         flex-direction: column;
     }
     div.botao{
-        flex-direction: column;
+        flex-direction: column;        
+        margin-top: -20px;
         margin-bottom:10px;
     }
     div.link{
         flex-direction: column;
-        margin-top: 50px;
+        margin-top: 20px;
     }
     input{
         flex-direction: column;

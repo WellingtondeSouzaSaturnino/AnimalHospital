@@ -15,7 +15,7 @@ body{
 }
 h1{   
     display:group;
-    margin-top:-40px; 
+    margin-top:-60px; 
     margin-bottom: 30px; 
     text-decoration: underline;
     font-size:40px; 
@@ -83,6 +83,7 @@ div.container{
 @media(max-width:800px){
     form{
         flex-direction: column;
+        margin-bottom: 20px;
     }
     div.form1{
         flex-direction: column;
@@ -96,8 +97,13 @@ div.container{
         height: 760px;
         
     }
+    h1{
+        font-size:35px;
+    }
+    a{
+        font-size:30px;
    
-
+    }
    
 }
 
