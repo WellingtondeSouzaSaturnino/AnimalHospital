@@ -5,11 +5,11 @@
 body{
     display: table;
     width: 100%;
-    height: 100%;
+    height: 590px;
     padding: 100px 0;
     background-image: url("/img/consulta.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100% 100%;
 }
 form{
     display: flex;
@@ -34,4 +34,31 @@ a{
     color: darkblue;
     font-size:30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div.container{
+    font-size:20px;
+    margin-top:350px;
+    text-align: center;
+}
+@media(max-width:700px){
+    form{ 
+        flex-direction: column;
+        text-align: center;
+        margin-left: 10px;
+    }
+    input{
+        flex-direction: column;
+        
+    }
+    div.link{
+        flex-direction: column;
+        text-align: center;
+    }
+    div.container{
+        flex-direction: column;
+    }
+    body{
+        background-size: 100% 100%;
+        height: 860px;
+    }
 }

@@ -28,29 +28,12 @@
     <div class="bt">
           <!-- Se o tutor estiver cadastrado ir para consulta se não voltar para cadastro -->
            <button type="button" class="btn btn" Onclick="verificar()"><a href="./indexConsulta.html"><h2>Consulta</h2></a></button>
-    </div>
-    <script>
-        function buscar(){
-            var input = document.querySelector("#name");
-            var texto = input.value;
-            if(texto != null){
-                // buscar o nome no banco de dados
-                console.log(texto);
-            }          
-                        
-       }
-       function verificar() {
-            var input = document.querySelector("#name");
-            var texto = input.value;
-                if(texto == "well"){
-                    // Ver um jeito de comparar com o banco de dados e se existir ir para consulta se não ir para cadastro.
-                    // <a href="../consultas/indexConsulta.html"></a>
-                    console.log("Deu Certo!!!");
-                }
-            }
-      
-    
-    </script>
+    </div>   
 </body>
+<footer>
+    <div class="container">
+        <p>Wellington&copy; Copyright 2022
+    </div>
+</footer>
 
 </html>
