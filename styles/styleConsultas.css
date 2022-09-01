@@ -3,13 +3,8 @@
     padding: 0;
 }
 body{
-    display: table;
-    width: 100%;
-    height: 590px;
-    padding: 100px 0;
-    background-image: url("../img/consulta1.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+    
+    background-color:aqua;
 }
 form{
     /* display: flex; */
